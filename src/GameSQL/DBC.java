@@ -15,8 +15,9 @@ public class DBC {
 
         //DB에 접속할 주소정보
         //String url = "jdbc:oracle:thin:@localhost:1521:XE";
-        String url = "jdbc:oracle:thin:@192.168.0.100:1521:XE";
+
         //다른사람 host에 들어갈때(ip 주소)
+        String url = "jdbc:oracle:thin:@192.168.0.100:1521:XE";
         //cmd에서 ipconpig/all 입력 후 IPv4 주소를 가져와서 입력
 
         try {
